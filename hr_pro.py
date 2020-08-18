@@ -52,11 +52,15 @@ def main():
   
   while op!=5:
     if op==1:
+      print("Employees")
       for x in employee:
         print(x)
+      print("-----------------")  
     elif op==2:
+      print("Managers")
       for x in employee:
         print(x)
+      print("-----------------")  
     elif op==3:
       name=input("Name:")
       age=int(input("Age:"))
@@ -84,6 +88,7 @@ def main():
     for x in listt:
       print(x)
     op=int(input("What would you like to do?") )   
+    print("-----------------")
     
 
 if __name__ == '__main__':
