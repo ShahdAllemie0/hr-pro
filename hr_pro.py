@@ -48,7 +48,8 @@ def main():
   print("Welcome to HR Pro 2020")
   for x in listt:
        print(x)
-  op=int(input("What would you like to do?") )    
+  op=int(input("What would you like to do?") )   
+  print("-----------------")   
   
   while op!=5:
     if op==1:
@@ -58,7 +59,7 @@ def main():
       print("-----------------")  
     elif op==2:
       print("Managers")
-      for x in employee:
+      for x in manager:
         print(x)
       print("-----------------")  
     elif op==3:
